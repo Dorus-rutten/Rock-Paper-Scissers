@@ -18,7 +18,7 @@ hr = Handrecognition()
 scr = Screen(hr) 
 game = Game(hr,scr,file)
 file_path = "data.csv"
-
+print("test")
 def update():
     #update the landmarks and the tips
     hr.landmark_update(hand_landmarks)
