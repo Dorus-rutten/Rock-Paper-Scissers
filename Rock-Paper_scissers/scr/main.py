@@ -14,6 +14,7 @@ print("import sucecse")
 # Instantiate classes
 print("class")
 print("test")
+print("test again")
 ai = AI()
 file = File()
 hr = Handrecognition()
