@@ -11,8 +11,10 @@ setup(
     url="https://github.com/Dorus-rutten/Rock-Paper-Scissers",  # Replace with your GitHub repo
     packages=find_packages(),  # Automatically finds your Python packages
     install_requires=[
-        "pygame>=2.1.0",
-        "numpy>=1.23.0"
+        "opencv-contrib-python==4.8.0.74",
+        "opencv-python==4.8.0.74",
+        "mediapipe==0.10.14",
+        "numpy==1.25.1"
     ],
     classifiers=[
         "Programming Language :: Python :: 3",
