@@ -11,9 +11,11 @@ class File:
         self.games_lost = 0
         self.games_tie = 0
 
+        self.game_count = 0
+
     def file_create(self):
         with open("data.csv", "w") as file:
-            file.write("game conclution, AI choice, player choice\n")
+            file.write("game conclution, AI choice, player choice, game_count\n")
 
     def file_read(self):
         with open("data.csv", "r") as file:
@@ -64,7 +66,10 @@ class File:
 
     def file_write(self,gameresult,choice,gesture):
         with open("data.csv", "a") as file:
-            file.write(f"{gameresult}, {choice}, {gesture}\n")
+            reader = csv.reader(file)
+            for line in reader:
+                game_count = line[3]
+            file.write(f"{gameresult}, {choice}, {gesture}, {game_count}\n")
 
     def file_delete(self):
         print("are you shure????")

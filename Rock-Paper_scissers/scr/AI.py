@@ -5,6 +5,16 @@ file = File()
 class AI:
     def __init__(self):
         pass
-    def d():
+
+    def optemizer(self):
         pass
+
+    def most_used(self):
+        pass
+    def least_used(self):
+        pass
+    def ja(self):
+        pass
+
+    
 
