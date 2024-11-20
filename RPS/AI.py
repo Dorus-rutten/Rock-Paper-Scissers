@@ -1,4 +1,4 @@
-from src.File import File
+from RPS.File import File
 
 file = File()
 
