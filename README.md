@@ -1,5 +1,3 @@
-# Rock-Paper-Scissors AI 🎮✋✊✌️
-
 Welcome to **Rock-Paper-Scissors AI** – the hand gesture game powered by **OpenCV**, **MediaPipe**, and my own **AI**. Play against your computer with your hand gestures while the AI tries to predict your next move.
 
 ---
@@ -75,12 +73,3 @@ Contributions are always welcome! If you have any suggestions or improvements, f
 
 
 Enjoy the game! ✨✌️
-
-
-
-
-
-
-
-
-
