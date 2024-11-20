@@ -37,6 +37,8 @@ We recommend using Conda or venv for creating a dedicated Python environment.
 Conda:
 ```bash
 conda create -n rock-paper-scissors-env python=3.9
+```
+```bash
 conda activate rock-paper-scissors-env
 ```
 
