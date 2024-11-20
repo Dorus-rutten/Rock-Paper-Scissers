@@ -11,6 +11,7 @@ setup(
     url="https://github.com/Dorus-rutten/Rock-Paper-Scissers",  # Replace with your GitHub repo
     packages=find_packages(),  # Automatically finds your Python packages
     install_requires=[
+        "pygame>=2.1.0",
         "numpy>=1.23.0"
     ],
     classifiers=[
@@ -18,5 +19,5 @@ setup(
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
     ],
-    python_requires=">=Python 3.9.20",
+    python_requires='>=3.9.20',  # Corrected this line
 )
