@@ -12,7 +12,6 @@ from File import File
 from AI import AI
 print("import sucecse")
 # Instantiate classes
-print("dorus")
 ai = AI()
 file = File()
 hr = Handrecognition()
