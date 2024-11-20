@@ -1,5 +1,5 @@
 import cv2
-from File import File
+from src.File import File
 
 file = File()
 

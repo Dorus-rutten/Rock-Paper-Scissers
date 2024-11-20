@@ -5,11 +5,11 @@ import mediapipe as mp
 import numpy as np
 import os
 
-from Handrecognition import Handrecognition
-from Game import Game
-from Screen import Screen
-from File import File
-from AI import AI
+from src.Handrecognition import Handrecognition
+from src.Game import Game
+from src.Screen import Screen
+from src.File import File
+from src.AI import AI
 print("import sucecse")
 # Instantiate classes
 ai = AI()
