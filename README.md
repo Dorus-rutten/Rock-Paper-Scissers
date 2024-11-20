@@ -26,7 +26,7 @@ To get started with **Rock-Paper-Scissors AI**, follow these steps:
 Download the game from GitHub:
 
 ```bash
-git clone https://github.com/dorus-rutten/Rock-Paper-Scissors.git
+git clone https://github.com/dorus-rutten/Rock-Paper-Scissors
 cd Rock-Paper-Scissors
 ```
 
