@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="Rock-Paper-scissers",
+    name="RPS",
     version="0.1.0",  # Initial version
     author="Dorus Rutten",
     author_email="Dorsrutten@gmail.com",
@@ -16,10 +16,5 @@ setup(
         "mediapipe==0.10.14",
         "numpy==1.25.1"
     ],
-    classifiers=[
-        "Programming Language :: Python :: 3",
-        "License :: OSI Approved :: MIT License",
-        "Operating System :: OS Independent",
-    ],
-    python_requires='>=3.9.20',  # Corrected this line
+    python_requires='==3.9.20',  # Corrected this line
 )
